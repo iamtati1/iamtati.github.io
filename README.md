@@ -68,3 +68,11 @@ I leveraged AI to build on what I already knew. While I was comfortable implemen
 [link-to-AI-Usage-Document](https://docs.google.com/document/d/1nMSvCBU2pngqc2uU65C6mlp-sNYiSfdJuZJkz_4skYE/edit?usp=sharing)
 
 (Command + Click)
+
+**Deployment**
+
+This portfolio is deployed using GitHub Pages and is accessible at https://iamtati1.github.io. 
+
+I tested the deployed site across desktop, tablet, and mobile breakpoints to ensure layout consistency and functional navigation.
+
+/*comment*/
