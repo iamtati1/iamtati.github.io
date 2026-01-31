@@ -10,13 +10,9 @@ I used this concept throughout my portfolio. For example, I applied `Flexbox` to
 Beyond layout, I applied what I learned about `CSS` styling colors, `hover` effects, `border-radius`, shadows to make each section visually cohesive. When I needed guidance or inspiration, I asked AI to suggest color palettes and design ideas, which helped me create a polished portfolio that’s both functional and visually appealing.
 
 
-
-
 **2. Choose one project requirement that you found challenging and are proud of implementing. Describe what made it challenging and how you were able to implement the requirement by walking through your code as succinctly as possible. Remember that your audience does not know your code nearly as well as you do so you’ll have to break it down in a logical manner for them to quickly understand it.**
 
-
-
-One project requirement I found challenging was creating the `project-card` layout and aligning the cards in a grid. I knew how to style cards and how to make grids separately, but combining both—so each card contained an image, description, and links while staying neatly aligned—was tricky.
+One project requirement I found challenging was creating the `project-card` layout and aligning the cards in a grid. I knew how to style cards and how to make grids separately, but combining both so each card contained an image, description, and links while staying neatly aligned was tricky.
 
 To implement this, I first styled the individual cards:
 
@@ -61,18 +57,15 @@ By breaking the problem into grid layout, card styling, and content spacing, I w
 
 **3. How did you leverage AI to assist your development of this project?**
 
-I leveraged AI to build on what I already knew. While I was comfortable implementing key CSS and Flexbox concepts individually, I found it challenging to combine them effectively—sometimes styles would override each other or not behave as expected. AI helped me break down these challenges, see how the different pieces could fit together, and troubleshoot issues more efficiently, allowing me to move forward confidently. Overall Ai was a big help!
+I leveraged AI to build on what I already knew. While I was comfortable implementing key CSS and Flexbox concepts individually, I found it challenging to combine them effectively sometimes styles would override each other or not behave as expected. AI helped me break down these challenges, see how the different pieces could fit together, and troubleshoot issues more efficiently, allowing me to move forward confidently. Overall AI was a big help!
 
 **AI Usage Document Link**
 
 [link-to-AI-Usage-Document](https://docs.google.com/document/d/1nMSvCBU2pngqc2uU65C6mlp-sNYiSfdJuZJkz_4skYE/edit?usp=sharing)
 
-(Command + Click)
 
 **Deployment**
 
 This portfolio is deployed using GitHub Pages and is accessible at https://iamtati1.github.io. 
 
 I tested the deployed site across desktop, tablet, and mobile breakpoints to ensure layout consistency and functional navigation.
-
-/*comment*/
