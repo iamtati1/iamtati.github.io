@@ -236,23 +236,40 @@ section {
 .project-card {
     background-color: var(--card-gray);
     border-radius: var(--radius-lg);
-    padding: 2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
     box-shadow: var(--shadow-soft);
     transition: transform 0.35s ease, box-shadow 0.35s ease;
+    cursor: pointer;
 }
 
 .project-card:hover {
-    transform: translateY(-4px);
+    transform: translateY(-6px);
     box-shadow: var(--shadow-hover);
 }
 
 .project-image {
-    height: 160px;
-    background: linear-gradient(135deg, #e6d5c3, #f4eee8);
+    height: 200px;
+    width: 100%;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 16px;
+    transition: transform 0.4s ease;
 }
 
+.project-card:hover .project-image {
+    transform: scale(1.03);
+    transition: transform 0.4s ease;
+}
+
+
 .project-content {
-    padding: 20px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .project-content h3 {
@@ -360,7 +377,7 @@ form button:hover {
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
+    gap: 32px;
     margin-top: 40px;
 }
 
@@ -452,4 +469,21 @@ form button:hover {
     main {
         padding: 0 24px;
     }
+}
+
+/*pictures*/
+.portfolio-preview {
+    background-image: url("./images/portfolio-preview.png");
+}
+
+.recipe-preview {
+    background-image: url("./images/recipe-preview.png");
+}
+
+.cli-preview {
+    background-image: url("./images/cli-preview.png");
+}
+
+.event-preview {
+    background-image: url("./images/forms-preview.png");
 }
