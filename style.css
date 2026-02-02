@@ -1,33 +1,22 @@
 :root {
     /* COLORS */
     --light-pink: #ffdbd0;
-    --pink-soft: #f6bfb3;
     --pink-medium: #eea79a;
     --pink-dark: #d97c6f;
 
     --green-soft: #e6f2ea;
     --green-muted: #a8cbb8;
-    --green-olive: #7fa897;
 
     /* TEXT */
     --text-primary: #3a2f2c;
     --text-secondary: #6a584c;
-    --text-muted: #7a5f58;
 
     /* BACKGROUNDS */
-    --bg-page: #ffffff;
     --bg-card: #ffffff;
-    --section-light: #fdfbf8;
-    --section-dark: #f7f4ef;
 
     --neutral-light: #f2f2f2;
-    /* for background sections */
-    --neutral-medium: #d1d1d1;
-    /* subtle borders or card shadows */
     --neutral-dark: #4a4a4a;
-    /* text accents or headings */
     --neutral-darker: #2e2e2e;
-    /* main headings, footer, nav */
 
     /* ACCENTS */
     --accent: #8c5e3c;
@@ -40,8 +29,7 @@
 
     --shadow-soft: 0 10px 25px rgba(0, 0, 0, 0.08);
     --shadow-hover: 0 22px 45px rgba(0, 0, 0, 0.12);
-    --projects-bg: #fcf8f5;
-    --card-gray: #ffffff;
+
 }
 
 
@@ -62,14 +50,6 @@ main {
     padding: 0 64px;
     background-color: transparent;
     border-radius: 14px;
-}
-
-h1,
-h2,
-h3 {
-    font-weight: 600;
-    letter-spacing: -0.02em;
-    color: var(--neutral-darker);
 }
 
 p {
@@ -147,19 +127,9 @@ header {
     color: var(--accent);
 }
 
-/* Offset for fixed header */
-section {
-    scroll-margin-top: 100px;
-}
-
 section#home {
     background-color: var(--light-pink);
     /* keep your pink accent */
-}
-
-.intro-line {
-    font-style: italic;
-    color: var(--text-muted);
 }
 
 .home-buttons {
@@ -186,7 +156,7 @@ section#home {
 }
 
 #projects {
-    background-color: var(--projects-bg);
+    background-color: var(--neutral-light);
     padding-top: 80px;
     /* more space above projects */
     padding-bottom: 96px;
@@ -250,7 +220,6 @@ h3 {
 
 .btn:hover {
     background-color: var(--pink-medium);
-    transform: translateY(-2px);
 }
 
 .skills-list {
@@ -278,23 +247,15 @@ h3 {
 }
 
 /*Project Cards*/
-
 .project-card {
-    background-color: var(--card-gray);
+    background: linear-gradient(180deg, #ffffff, #fdf7f4);
     border-radius: var(--radius-lg);
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: var(--shadow-soft);
     transition: transform 0.35s ease, box-shadow 0.35s ease;
     cursor: pointer;
-    padding: 0;
-}
-
-.project-card {
-    background: linear-gradient(180deg,
-            #ffffff,
-            #fdf7f4);
 }
 
 .project-card:hover {
@@ -319,7 +280,6 @@ h3 {
     transform: scale(1.02);
     transition: transform 0.4s ease;
 }
-
 
 .project-content {
     padding: 24px;
@@ -352,12 +312,12 @@ h3 {
 
 form {
     max-width: 640px;
-    padding: 40px 32px;
-    background: var(--section-light);
-    border-radius: var(--radius-lg);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    padding: 2.5rem;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     margin: 0 auto;
-    margin: 0 auto;
+    margin-top: 2rem;
     transition: box-shadow 0.3s ease;
 }
 
@@ -367,21 +327,20 @@ form {
     margin-bottom: 24px;
 }
 
-
 label {
     font-size: 0.85rem;
-    margin-bottom: 6px;
-    color: var(--text-muted);
+    margin-bottom: 0.4rem;
+    color: #555;
+    letter-spacing: 0.04rem;
 }
 
 input,
 textarea {
-    padding: 16px;
-    font-size: 1rem;
-
-    border-radius: 6px;
-    border: 1px solid var(--border-light);
-    background-color: #fff;
+    padding: 0.75rem 0.85rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    transition: border-color 0.2s ease;
 }
 
 textarea {
@@ -411,15 +370,12 @@ form button {
     transition: background-color 0.25s ease, transform 0.2s ease;
 }
 
-
 form button:hover {
     background-color: var(--pink-medium);
     transform: translateY(-1px);
     box-shadow: 0 12px 28px rgba(217, 124, 111, 0.45);
     background: linear-gradient(180deg, var(--pink-medium), var(--pink-dark));
 }
-
-
 
 form:hover {
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.12);
@@ -430,48 +386,14 @@ form:hover {
     outline-offset: 3px;
 }
 
-
-.section {
-    padding: 120px 0;
-}
-
 section.section-dark {
     background-color: var(--neutral-light);
     /* replace very light pinks with neutral */
 }
 
-.section-divider {
-    width: 60px;
-    height: 3px;
-    background-color: var(--pink-dark);
-    margin: 24px 0 48px;
-}
-
 .contact-box:focus-visible {
     outline: 2px solid var(--accent);
     outline-offset: 4px;
-}
-
-.contact-info-card {
-    max-width: 700px;
-    margin: 0 auto;
-    background-color: var(--bg-card);
-    border-radius: var(--radius-lg);
-    padding: 48px 32px;
-    box-shadow: var(--shadow-soft);
-    text-align: center;
-}
-
-.contact-info-card h4 {
-    font-size: 1.4rem;
-    margin-bottom: 16px;
-    color: var(--text-primary);
-}
-
-.contact-info-card p {
-    color: var(--text-secondary);
-    margin-bottom: 32px;
-    font-size: 1rem;
 }
 
 .projects-grid {
@@ -481,19 +403,27 @@ section.section-dark {
     margin-top: 40px;
 }
 
-
 .contact-box {
+    width: 160px;
+    height: 55px;
+
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 8px;
-    min-width: 160px;
-    padding: 14px 24px;
-    background-color: var(--neutral-dark);
-    color: #fff;
+
+    background-color: #ffffff;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-sm);
+
+    color: var(--text-primary);
     font-weight: 500;
-    border-radius: var(--radius-md);
     text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+
+    transition:
+        transform 0.25s ease,
+        background-color 0.25s ease,
+        border-color 0.25s ease;
 }
 
 .contact-box i {
@@ -501,10 +431,10 @@ section.section-dark {
 }
 
 .contact-box:hover {
-    background-color: var(--pink-dark);
-    transform: translateY(-2px);
+    background-color: var(--green-soft);
+    border-color: var(--accent);
+    transform: translateY(-3px);
 }
-
 
 .section-inner {
     max-width: 900px;
@@ -513,34 +443,6 @@ section.section-dark {
 
 .section {
     padding: 140px 0;
-}
-
-
-.contact-box {
-    width: 160px;
-    height: 55px;
-
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    background-color: var(--bg-card);
-    border: 1px solid var(--border-light);
-    border-radius: var(--radius-sm);
-
-    color: var(--text-primary);
-    font-weight: 500;
-
-    transition:
-        transform 0.25s ease,
-        background-color 0.25s ease,
-        border-color 0.25s ease;
-}
-
-.contact-box:hover {
-    background-color: var(--green-soft);
-    border-color: var(--accent);
-    transform: translateY(-3px);
 }
 
 .contact-links {
@@ -583,11 +485,6 @@ section.section-dark {
     flex: 1;
     min-width: 280px;
     /* prevents text from squishing */
-}
-
-/* Optional: spacing for the rest of the text */
-.about-rest {
-    margin-top: 24px;
 }
 
 /*Media Quires*/
