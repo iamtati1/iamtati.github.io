@@ -528,5 +528,9 @@ nav ul {
 }
 
 .forms-preview {
-    background-image: url("images/forms-preview.png");
+    background-image: url("./images/forms-preview.png");
+}
+
+.pokedex-preview {
+    background-image: url("./images/pokedex-preview.png");
 }
