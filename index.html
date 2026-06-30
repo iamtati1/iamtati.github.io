@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tatiana Barmer | Web Developer</title>
+    <title>Tatiana Barmer | Full-Stack Software Engineer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -12,7 +12,6 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -25,6 +24,7 @@
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -37,12 +37,22 @@
             <div class="home-inner">
 
 
-                <h1>Tatiana Barmer</h1>
-                <p>Vision Driven Web Developer</p>
+                <h1>Hi, I'm Tatiana Barmer.</h1>
+                <h2>
+                    Building intuitive full-stack applications that combine
+                    thoughtful design with scalable engineering.
+                </h2>
 
                 <p>
-                    I create thoughtful, high quality web experiences prioritizing clarity,
-                    usability, and real user impact.
+                    I build modern web applications using React, JavaScript, Node.js, and PostgreSQL,
+                    with a focus on writing clean, maintainable code and creating accessible,
+                    user-centered experiences. I'm always looking for opportunities to learn,
+                    grow, and solve meaningful problems through software.
+                </p>
+
+                <p class="mission">
+                    My mission is to create software that is accessible,
+                    thoughtful, and genuinely improves people's everyday experiences.
                 </p>
 
                 <div class="home-buttons">
@@ -59,56 +69,139 @@
 
                 <p>Welcome to my portfolio!</p>
 
-                <img src="Marcy-278.jpg" alt="My Photo" class="profile-pic"
-                    style="max-width:200px; display:block; margin:20px 0;">
+                <img src="Marcy-278.jpg" alt="Portrait of Tatiana Barmer" class="profile-pic">
+
+                <h3>My Journey Into Software Engineering</h3>
 
                 <p>
-                    I'm a creative at heart with a deep curiosity for how things work behind
-                    the scenes. That curiosity led me to full-stack web development, where I enjoy turning ideas into
-                    clean, functional, and engaging web experiences.
+                    My path into software engineering wasn't traditional.
+                    After years of working directly with customers, I realized my favorite part
+                    of every job was solving problems and improving experiences.
+                    That curiosity eventually led me to programming.
                 </p>
 
                 <p>
-                    I thrive on problem solving, learning new technologies, and building projects that make a real
-                    impact.
-                    When I'm not coding, I love exploring the outdoors, experimenting in the kitchen, and discovering
-                    new shows always staying curious and inspired. My goal is to craft thoughtful, high quality websites
-                    that
-                    prioritize usability, clarity, and meaningful user experiences.
+                    Today, I'm building full-stack web applications while continuously
+                    strengthening my skills in modern JavaScript development, backend APIs,
+                    databases, and user interface design.
+                </p>
+
+                <p>
+                    I enjoy taking complex ideas and transforming them into intuitive,
+                    accessible software that people genuinely enjoy using.
                 </p>
             </div>
         </section>
 
         <section id="skills" class="section">
             <div class="section-inner">
-                <h3>From HTML & CSS to full-stack development, these are my strengths. I enjoy crafting clean layouts,
+
+                <h2>Technical Skills</h2>
+
+                <p class="section-description">
+                    From HTML & CSS to full-stack development, these are my strengths. I enjoy crafting clean layouts,
                     experimenting with responsive design, and making websites that are both functional and visually
-                    appealing.</h3>
-                <h3>Technical Skills</h3>
-                <ul class="skills-list">
-                    <li>Node.js</li>
-                    <li>JavaScript</li>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                </ul>
+                    appealing.
+                </p>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <h4>Languages</h4>
+                        <p>JavaScript • Python • SQL</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h4>Frontend</h4>
+                        <p>React • HTML5 • CSS3 • Tailwind CSS</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h4>Backend</h4>
+                        <p>Node.js • Express • PostgreSQL</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h4>Tools</h4>
+                        <p>Git • GitHub • VS Code • Postman • Vite</p>
+                    </div>
+
+                </div>
             </div>
         </section>
 
         <section id="work" class="section">
             <div class="section-inner">
-                <h3>Check out my work turning ideas into real web experiences!</h3>
                 <h2>Projects</h2>
+                <h3>Here are some of the applications I've built while learning full-stack software engineering.</h3>
+
 
                 <div class="projects-grid">
 
                     <!-- Project 1 -->
                     <article class="project-card">
+                        <div class="project-image taskFlow-preview"></div>
+                        <div class="project-content">
+                            <div class="section-divider"></div>
+
+                            <h3>TaskFlow</h3>
+                            <span class="featured-badge">
+                                ⭐ Featured Project
+                            </span>
+                            <p>
+                                TaskFlow is a productivity focused web application that allows users to securely manage
+                                their tasks and stay organized. Users can create, update, and track tasks through an
+                                intuitive interface powered by React and a PostgreSQL backed API. This project
+                                highlights my experience building full-stack applications and implementing
+                                authentication, database management, and RESTful APIs.
+
+                            </p>
+
+                            <h4 class="tech-title">Tech Stack</h4>
+
+                            <div class="tech-stack">
+                                <span class="tech-badge">React</span>
+                                <span class="tech-badge">Node.js</span>
+                                <span class="tech-badge">Express</span>
+                                <span class="tech-badge">PostgreSQL</span>
+                                <span class="tech-badge">REST API</span>
+                                <span class="tech-badge">Authentication</span>
+                            </div>
+
+                            <div class="project-divider"></div>
+
+                            <div class="project-links">
+                                <a href="https://taskflow-onrender-com.onrender.com">Live Demo</a>
+                                <a
+                                    href="https://github.com/The-Marcy-Lab-School-Assignments/full-stack-project-remix-iamtati1">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
                         <div class="project-image portfolio-preview"></div>
                         <div class="project-content">
                             <div class="section-divider"></div>
                             <h3>Portfolio Website</h3>
-                            <p>A clean and responsive personal portfolio built using HTML and CSS.</p>
+                            <p>Designed and developed a responsive personal portfolio that showcases my software
+                                engineering journey, technical projects, and growing full-stack skill set. Built with
+                                semantic HTML, CSS, and JavaScript, the site emphasizes responsive layouts,
+                                accessibility, reusable components, and thoughtful UI design while providing a polished
+                                experience for recruiters, hiring managers, and collaborators exploring my work.
+                            </p>
 
+
+                            <h4 class="tech-title">Tech Stack</h4>
+                            <div class="tech-stack">
+                                <span class="tech-badge">HTML5</span>
+                                <span class="tech-badge">CSS3</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">Responsive Design</span>
+                                <span class="tech-badge">UI Design</span>
+                                <span class="tech-badge">Accessibility</span>
+                            </div>
+                            <div class="project-divider"></div>
                             <div class="project-links">
                                 <a href="https://iamtati1.github.io/iamtati.github.io/" target="_blank">Live Site</a>
                                 <a href="https://github.com/iamtati1/iamtati.github.io" target="_blank">GitHub</a>
@@ -116,13 +209,26 @@
                         </div>
                     </article>
 
-                    <!-- Project 2 -->
+                    <!-- Project 3 -->
                     <article class="project-card">
                         <div class="project-image cli-preview"></div>
                         <div class="project-content">
                             <div class="section-divider"></div>
                             <h3>CLI Quiz Game App</h3>
-                            <p>A quiz game built using core JavaScript principles.</p>
+                            <p>Built an interactive command-line quiz game using JavaScript,
+                                applying functions, loops, conditionals, and modular code
+                                to create an engaging user experience.</p>
+
+                            <h4 class="tech-title">Tech Stack</h4>
+
+                            <div class="tech-stack">
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">Node.js</span>
+                                <span class="tech-badge">CLI</span>
+                                <span class="tech-badge">Functions</span>
+                            </div>
+
+                            <div class="project-divider"></div>
 
                             <div class="project-links">
                                 <a href="https://github.com/iamtati1/swe-project-1-cli-app-v2"
@@ -131,13 +237,26 @@
                         </div>
                     </article>
 
-                    <!-- Project 3 -->
+                    <!-- Project 4 -->
                     <article class="project-card">
                         <div class="project-image recipe-preview"></div>
                         <div class="project-content">
                             <div class="section-divider"></div>
                             <h3>Recipe Card App</h3>
-                            <p>A responsive recipe card layout using Flexbox and CSS Grid.</p>
+                            <p>Designed a responsive recipe application using HTML and CSS,
+                                leveraging Flexbox and CSS Grid to build accessible,
+                                mobile-friendly layouts.</p>
+
+                            <h4 class="tech-title">Tech Stack</h4>
+
+                            <div class="tech-stack">
+                                <span class="tech-badge">HTML5</span>
+                                <span class="tech-badge">CSS3</span>
+                                <span class="tech-badge">Flexbox</span>
+                                <span class="tech-badge">CSS Grid</span>
+                            </div>
+
+                            <div class="project-divider"></div>
 
                             <div class="project-links">
                                 <a href="https://iamtati1.github.io/swe-3-1-two-recipe-card-iamtati1/"
@@ -148,28 +267,53 @@
                         </div>
                     </article>
 
-                    <!-- Project 4 -->
+                    <!-- Project 5 -->
                     <article class="project-card">
                         <div class="project-image forms-preview"></div>
                         <div class="project-content">
                             <div class="section-divider"></div>
                             <h3>Forms</h3>
-                            <p>A contact form designed to make it easy for visitors to share messages and start a
-                                conversation.</p>
+                            <p>Developed an accessible contact form using semantic HTML and modern CSS, focusing on
+                                usability, responsive layouts, and clean form design. This project strengthened my
+                                understanding of semantic markup, accessibility best practices, and creating intuitive
+                                user experiences.</p>
+
+                            <h4 class="tech-title">Tech Stack</h4>
+
+                            <div class="tech-stack">
+                                <span class="tech-badge">HTML5</span>
+                                <span class="tech-badge">CSS3</span>
+                                <span class="tech-badge">Forms</span>
+                                <span class="tech-badge">Accessibility</span>
+                            </div>
+
+                            <div class="project-divider"></div>
+
                             <div class="project-links">
                                 <a href="https://github.com/iamtati1" target="_blank">GitHub</a>
                             </div>
                         </div>
                     </article>
-                    <!-- Project 5 -->
+                    <!-- Project 6 -->
                     <article class="project-card">
                         <div class="project-image pokedex-preview"></div>
                         <div class="project-content">
                             <div class="section-divider"></div>
                             <h3>Pokédex Explorer</h3>
-                            <p>An interactive Pokédex Explorer web app that fetches real time Pokémon data from an API,
-                                allowing users to search, filter, and view detailed stats through a dynamic and
-                                responsive interface.</p>
+                            <p>Built an interactive React application that integrates a REST API to retrieve real-time
+                                Pokémon data. Implemented search, filtering, responsive layouts, and dynamic rendering
+                                to create a seamless user experience.</p>
+
+                            <h4 class="tech-title">Tech Stack</h4>
+
+                            <div class="tech-stack">
+                                <span class="tech-badge">React</span>
+                                <span class="tech-badge">REST API</span>
+                                <span class="tech-badge">Vite</span>
+                                <span class="tech-badge">CSS</span>
+                            </div>
+
+                            <div class="project-divider"></div>
 
                             <div class="project-links">
                                 <a href="https://tati-uremu-mls.github.io/mod-4-project/" target="_blank">Live Site</a>
@@ -180,7 +324,7 @@
                             </div>
                         </div>
                     </article>
-                    <!-- Project 6 -->
+                    <!-- Project 7 -->
                     <article class="project-card">
                         <div class="project-image aI-upgraded-portfolio-preview"></div>
                         <div class="project-content">
@@ -194,48 +338,70 @@
                                 modern user experience, that highlights my growth as a software engineer.
                             </p>
 
+                            <h4 class="tech-title">Tech Stack</h4>
+
+                            <div class="tech-stack">
+                                <span class="tech-badge">HTML5</span>
+                                <span class="tech-badge">CSS3</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">Responsive Design</span>
+                            </div>
+
+                            <div class="project-divider"></div>
+
                             <div class="project-links">
                                 <a href="https://applied-ai-engineering-residency-ti.vercel.app/">Live Demo</a>
                                 <a href="https://github.com/iamtati1/personal-portfolio-ai.git">GitHub</a>
                             </div>
                         </div>
                     </article>
-                    <!-- Project 7 -->
-                    <article class="project-card">
-                        <div class="project-image taskFlow-preview"></div>
-                        <div class="project-content">
-                            <div class="section-divider"></div>
-
-                            <h3>TaskFlow</h3>
-
-                            <p>
-                                TaskFlow is a productivity-focused web application that allows users to securely manage
-                                their tasks and stay organized. Users can create, update, and track tasks through an
-                                intuitive interface powered by React and a PostgreSQL-backed API. This project
-                                highlights my experience building full-stack applications and implementing
-                                authentication, database management, and RESTful APIs.
-
-                            </p>
-
-                            <div class="project-links">
-                                <a href="https://taskflow-onrender-com.onrender.com">Live Demo</a>
-                                <a
-                                    href="https://github.com/The-Marcy-Lab-School-Assignments/full-stack-project-remix-iamtati1">GitHub</a>
-                            </div>
-                        </div>
-                    </article>
-
                 </div>
+
+                <p>Outside of software engineering,
+
+                    I enjoy discovering coffee shops.
+
+                    Painting and creative design inspire my UI work.
+
+                    Photography has taught me composition and attention to detail.
+
+                    Fitness keeps me disciplined.
+
+                    I'm fascinated by AI and emerging technologies.</p>
+
+                <h2>My Engineering Philosophy</h2>
+                <p>
+                    Great software isn't just functional it should be intuitive, accessible, and enjoyable to use.
+                </p>
+                <p>
+                    I believe thoughtful engineering means writing clean, maintainable code while always keeping the
+                    user
+                    experience at the center of every decision.
+                </p>
+                <p>
+                    Every project I build is an opportunity to become a better engineer and create something meaningful.
+                </p>
             </div>
         </section>
 
         <section id="contact" class="section">
             <div class="section-inner">
-                <h3> I'd love to hear from you! Whether you want to chat about a project, explore opportunities, or just
-                    say hello, feel free to reach out. Let's connect and create something meaningful together!</h3>
+
+                <h2>Let's Build Something Great Together</h3>
+                    <p>
+                        Whether you're looking for a software engineer,
+                        collaborator, or someone excited to solve challenging
+                        problems, I'd love to connect.
+                    </p>
+                    <p>
+                        I'm currently seeking software engineering opportunities
+                        where I can continue learning while building products that
+                        make a meaningful impact.
+                    </p>
+                </h2>
 
                 <form action="https://formspree.io/f/xqepooyb" method="POST">
-                    <h2 class="rsvp-title">Contact Me</h2>
+                    <h3 class="rsvp-title">Contact Me</h3>
 
 
                     <div class="form-field">
@@ -262,7 +428,7 @@
         </section>
 
         <section>
-            <h4>My Contact Info:</h4>
+            <h4>Connect With Me</h4>
             <div class="contact-links">
                 <a href="mailto:tatianabarmer@gmail.com" class="contact-box"> <i class="fas fa-envelope"></i> Email
                     ↗</a>
@@ -276,7 +442,7 @@
     </main>
 
     <footer>
-        <p>© 2026 Designed by Tatiana Barmer</p>
+        <p>© 2026 Tatiana Barmer</p>
     </footer>
 </body>
 
