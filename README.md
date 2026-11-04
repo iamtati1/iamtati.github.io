@@ -4,6 +4,12 @@ A responsive personal portfolio built with semantic HTML and CSS to introduce my
 
 🌐 **[View the live portfolio](https://iamtati1.github.io/iamtati.github.io/)**
 
+<p align="center">
+  <img src="images/readme/portfolio-home.png" alt="Portfolio home page on desktop" width="72%">
+  &nbsp;
+  <img src="images/readme/portfolio-mobile.jpg" alt="Portfolio home page on mobile" width="22%">
+</p>
+
 ## About
 
 I'm a software engineer and product-minded developer who enjoys building thoughtful, accessible web experiences. This portfolio brings together my background, technical skills, and selected projects in one place.
@@ -35,12 +41,47 @@ The project cards use consistent spacing, borders, shadows, and hover transition
 
 A few projects currently represented in my portfolio:
 
-| Project | Description | Links |
-| --- | --- | --- |
-| **TaskFlow** | A full-stack task management application with authentication and a PostgreSQL-backed REST API. | [Live demo](https://taskflow-onrender-com.onrender.com) · [Source](https://github.com/The-Marcy-Lab-School-Assignments/full-stack-project-remix-iamtati1) |
-| **Pokédex Explorer** | An API-driven application with Pokémon data, search, filtering, and dynamic rendering. | [Live demo](https://tati-uremu-mls.github.io/mod-4-project/) · [Source](https://github.com/tati-uremu-mls/mod-4-project) |
-| **CLI Quiz Game** | A command-line quiz built with JavaScript fundamentals and Node.js. | [Source](https://github.com/iamtati1/swe-project-1-cli-app-v2) |
-| **Recipe Card App** | A responsive recipe layout built with HTML and CSS Grid/Flexbox. | [Live demo](https://iamtati1.github.io/swe-3-1-two-recipe-card-iamtati1/) · [Source](https://github.com/iamtati1/swe-3-1-two-recipe-card-iamtati1) |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="images/Jolt.png" alt="Jolt home page showing the Code Blitz and Flush game modes">
+      <h3>Jolt ⭐</h3>
+      <p>A full-stack, game-based learning platform that turns JavaScript practice into fast, replayable challenges. React and TypeScript front end with an Express and PostgreSQL API and authentication.</p>
+      <p><a href="https://jolt-4mjc.onrender.com/">Live demo</a> · <a href="https://github.com/iamtati1/game-night">Source</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <img src="images/taskFlow.png" alt="TaskFlow sign-in page">
+      <h3>TaskFlow ⭐</h3>
+      <p>A full-stack task management application with authentication and a PostgreSQL-backed REST API.</p>
+      <p><a href="https://taskflow-onrender-com.onrender.com">Live demo</a> · <a href="https://github.com/The-Marcy-Lab-School-Assignments/full-stack-project-remix-iamtati1">Source</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="images/pokedex-preview.png" alt="Pokédex Explorer grid of Pokémon cards">
+      <h3>Pokédex Explorer</h3>
+      <p>An API-driven application with Pokémon data, search, filtering, and dynamic rendering.</p>
+      <p><a href="https://tati-uremu-mls.github.io/mod-4-project/">Live demo</a> · <a href="https://github.com/tati-uremu-mls/mod-4-project">Source</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <img src="images/recipe-preview.png" alt="Recipe Card App showing a Cajun shrimp scampi recipe">
+      <h3>Recipe Card App</h3>
+      <p>A responsive recipe layout built with HTML and CSS Grid/Flexbox.</p>
+      <p><a href="https://iamtati1.github.io/swe-3-1-two-recipe-card-iamtati1/">Live demo</a> · <a href="https://github.com/iamtati1/swe-3-1-two-recipe-card-iamtati1">Source</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="images/cli-preview.png" alt="Brain Game CLI quiz start screen" width="60%">
+      <h3>CLI Quiz Game</h3>
+      <p>A command-line quiz built with JavaScript fundamentals and Node.js.</p>
+      <p><a href="https://github.com/iamtati1/swe-project-1-cli-app-v2">Source</a></p>
+    </td>
+    <td width="50%" valign="top"></td>
+  </tr>
+</table>
+
+> Jolt and TaskFlow are hosted on Render's free tier, so the first visit can take up to a minute while the server wakes up.
 
 See the [live portfolio](https://iamtati1.github.io/iamtati.github.io/) for the full project list.
 
