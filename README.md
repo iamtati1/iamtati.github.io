@@ -75,7 +75,7 @@ A few projects currently represented in my portfolio:
       <img src="images/cli-preview.png" alt="Brain Game CLI quiz start screen" width="60%">
       <h3>CLI Quiz Game</h3>
       <p>A command-line quiz built with JavaScript fundamentals and Node.js.</p>
-      <p><a href="https://github.com/iamtati1/swe-project-1-cli-app-v2">Source</a></p>
+      <p><a href="https://github.com/iamtati1/-swe-project-1-cli-app-v2">Source</a></p>
     </td>
     <td width="50%" valign="top"></td>
   </tr>
